@@ -1,3 +1,3 @@
-# graphql-typescript-server-boilerplate
+# airbnb-clone-server
 
-graphql-typescript-server-boilerplate
+A Fullstack GraphQL Airbnb Clone with React and React Native ( Back End )
