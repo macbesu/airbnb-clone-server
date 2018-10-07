@@ -2,7 +2,7 @@ import * as SparkPost from 'sparkpost';
 const client = new SparkPost(process.env.SPARKPOST_API_KEY);
 
 export const sendEmail = async (recipient: string, url: string) => {
-  const res = client.transmissions.send({
+  client.transmissions.send({
     options: {
       sandbox: true
     },
@@ -19,5 +19,4 @@ export const sendEmail = async (recipient: string, url: string) => {
     },
     recipients: [{ address: recipient }]
   });
-  console.log(res);
 };
