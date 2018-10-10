@@ -1,0 +1,5 @@
+*
+!./package*.json
+!./dist
+!./.env
+!./ormconfig.json
